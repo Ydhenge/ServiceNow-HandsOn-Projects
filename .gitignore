@@ -134,3 +134,14 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# ServiceNow-specific ignores
+.snconfig.json
+update_set_export/
+*.update.xml.bak
+*.log
+.vscode/
+.env
+.env.*
+.DS_Store
+Thumbs.db
